@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 driverpath = "I:\\selenium python\\driver\\chromedriver.exe"
 driver = webdriver.Chrome(executable_path=driverpath)
 driver.maximize_window()
-
+#test
 # open the url
 driver.get('https://www.google.com/')
 
